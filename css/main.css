@@ -16,6 +16,8 @@ a:hover {
   text-decoration: underline; 
 }
 
+
+/*
 div.header {
   position: relative;
   height: 200px;
@@ -34,6 +36,37 @@ div.navigation {
   width: 100%;
   text-align: center;
 }
+*/
+
+.alpha_wrapper {
+  width: 540px;
+  height: 360px;
+  float: left;
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+.alpha_2 {
+    background: transparent url("/pics/header.jpg") no-repeat 0 0;
+    width: 540px;
+    height: 440px;
+    float: left;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+  }
+
+.text_holder_2 {
+    background: blue;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 500px;
+    overflow: hidden;
+    clear: both;
+  }
+
+
 
 p, ul { 
   font-size: 1.5em; 
