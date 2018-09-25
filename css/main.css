@@ -49,16 +49,14 @@ div.navigation {
     background: transparent url("/pics/header.jpg");
     filter: alpha(opacity=30);
     opacity: 0.3;
-  }
+}
 
 .text_holder_2 {
-    background: gray;
+    background: #D8D8D8;
     position: absolute;
     bottom: 0;
     text-align: center;
-    overflow: hidden;
-    clear: both;
-  }
+}
 
 
 
