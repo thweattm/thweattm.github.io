@@ -13,6 +13,7 @@ a:hover {
 }
 
 div.header {
+  position: relative;
   height: 200px;
   background-image: url("/pics/header.jpg");
   background-position: center bottom;
@@ -24,7 +25,9 @@ div.header {
 }
 
 div.navigation {
-  background-color: #000000;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 p, ul { 
