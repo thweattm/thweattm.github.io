@@ -15,7 +15,7 @@ a:hover {
 div.header {
   height: 200px;
   background-image: url("/pics/header.jpg");
-  background-position: center center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #d8d8d8;
