@@ -39,29 +39,23 @@ div.navigation {
 */
 
 .alpha_wrapper {
-  width: 540px;
-  height: 360px;
-  float: left;
+  height: 200px;
   position: relative;
   color: #fff;
   overflow: hidden;
 }
 
 .alpha_2 {
-    background: transparent url("/pics/header.jpg") no-repeat 0 0;
-    width: 540px;
-    height: 440px;
-    float: left;
+    background: transparent url("/pics/header.jpg");
     filter: alpha(opacity=30);
     opacity: 0.3;
   }
 
 .text_holder_2 {
-    background: blue;
+    background: gray;
     position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 500px;
+    bottom: 0;
+    text-align: center;
     overflow: hidden;
     clear: both;
   }
