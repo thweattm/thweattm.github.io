@@ -1,28 +1,23 @@
 <!doctype HTML>
 <HTML>
 	<head>
-		<meta charset="UTF-8">
 		<title>{{ page.title }}</title>
-		<link rel="stylesheet" href="css/main.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
-		<center>
-		<div class="header">
-			Header DIV <br>
-			<nav>
-				<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				</ul>
-			</nav>
-		</div>
+		<nav>
+			<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			</ul>
+		</nav>
 		
-		{{ content }}
+		<div class="container">
+			{{ content }}
+		</div>
 		
 		<footer>
 			Footer Here
 		</footer>
-			
-		</center>
 	</body>
 </HTML>
