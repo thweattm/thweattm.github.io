@@ -8,6 +8,10 @@ a {
   color: #999; 
 }
 
+nav a {
+ color: #000; 
+}
+
 a:hover { 
   text-decoration: underline; 
 }
@@ -28,6 +32,7 @@ div.navigation {
   position: absolute;
   bottom: 0;
   width: 100%;
+  text-align: center;
 }
 
 p, ul { 
