@@ -13,11 +13,11 @@ a:hover {
 }
 
 div.header {
+  background-image: url("/pics/header.jpg");
   background-color: #d9d9d9;
   border-radius: 10px;
   margin-top:10px;
   padding:5px;
-  color: red;
 }
 
 p, ul { 
