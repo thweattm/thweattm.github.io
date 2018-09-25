@@ -12,6 +12,10 @@ a:hover {
   text-decoration: underline; 
 }
 
+div.navigation a:hover {
+    background-color: #111;
+}
+
 div.header {
   position: relative;
   height: 200px;
