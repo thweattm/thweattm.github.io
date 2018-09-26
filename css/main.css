@@ -1,59 +1,72 @@
 body { 
-  margin: 60px auto; 
-  width: 70%;
-  font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
+  	margin: 60px auto; 
+  	width: 70%;
+  	font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
 }
 
+/*Table used in the header*/
 table {
-	width: 100%;
+  	width: 100%;
 }
 
+/*Links*/
 a { 
-  text-decoration: none; 
-  color: #999; 
+  	text-decoration: none; 
+  	color: #999; 
 }
 
 a:hover { 
-  text-decoration: underline; 
+  	text-decoration: underline; 
 }
 
+/*List items in the navigation div*/
 nav ul { 
-  list-style: none; 
-  font-weight: bold; 
+  	list-style: none; 
+  	font-weight: bold; 
 }
 
 nav ul li { 
-  display: inline; 
-  margin-right: 20px;
+  	display: inline; 
+  	margin-right: 20px;
 }
 
-img.icon {
-  height:40px;
-  width:40px;
+/*icon class*/
+.icon {
+	height:40px;
+	width:40px;
 }
 
-img.schoolLogo1{
-	height:100px;	
+/*logo class*/
+.logo {
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
-img.schoolLogo2{
+/*Specific logos*/
+#osuLogo.logo {
+	height:100px;
+}
+
+#ucdLogo.logo {
 	height:125px;	
 }
 
-img.workLogo1{
+#attLogo.logo {
 	height:100px;	
 }
 
-img.workLogo2{
+#dishLogo.logo{
 	height:90px;	
 }
 
+/*Main div definitions*/
 div {
 	border-radius: 10px;
 	position: relative;
 	background-color: #d8d8d8;
 }
 
+/*Specific div definitions*/
 div.headerMain {
 	background-image: url("/pics/header3.png");
 	background-position: center bottom;
@@ -96,6 +109,7 @@ div.school, div.work {
 	background-image: url("/pics/work2jpg.jpg");
 }
 
+/*td definition for the name within the header */
 td.headerName {
 	color: #000;
 	padding: 10px;
@@ -105,16 +119,19 @@ td.headerName {
 	font-size: 50px;
 }
 
+/*td definition for the icons in the header*/
 td.headerIcons {
 	padding: 10px;
 	text-align: right;
 }
 
-p.blurbs {
+/*paragraphs*/
+p {
 	padding: 10px;
 	margin-left: 20px;
 }
 
+/*Span to get the blue font*/
 span.title {
 	font-weight: bold;
 	color: #2E9AFE;
@@ -122,12 +139,14 @@ span.title {
 	font-family: 'Rockwell';
 }
 
+/*Span to get the bold black font*/
 span.location {
 	font-weight: bold;
 	font-size: 20px;
 	font-family: 'Rockwell';
 }
 
+/*Page footer*/
 footer { 
 	margin-top: 20px;
 	padding-top: 20px;
