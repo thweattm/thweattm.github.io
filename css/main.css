@@ -8,6 +8,25 @@ table {
 	width: 100%;
 }
 
+a { 
+  text-decoration: none; 
+  color: #999; 
+}
+
+a:hover { 
+  text-decoration: underline; 
+}
+
+nav ul { 
+  list-style: none; 
+  font-weight: bold; 
+}
+
+nav ul li { 
+  display: inline; 
+  margin-right: 20px; 
+}
+
 img.icon {
   height:40px;
   width:40px;
@@ -16,7 +35,7 @@ img.icon {
 div.headerMain {
 	border-radius: 10px;
 	position: relative;
-	background-image: url("/pics/header.png");
+	background-image: url("../pics/header.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -46,4 +65,24 @@ div.navigation {
 	color:#fff;
 	clear: both;
 	padding: 1px;
+}
+
+div.body {
+	padding-top: 20px;
+}
+
+td.right {
+	text-align: right;
+}
+
+td.legal {
+	font-style: italic;
+	text-align: center;
+	padding-top: 20px;
+}
+
+footer { 
+	margin-top: 20px;
+	border-top: 1px solid #d5d5d5; 
+	font-size: .8em; 
 }
