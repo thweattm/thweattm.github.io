@@ -24,7 +24,7 @@ nav ul {
 
 nav ul li { 
   display: inline; 
-  margin-right: 20px; 
+  margin-right: 20px;
 }
 
 img.icon {
@@ -40,6 +40,14 @@ img.schoolLogo2{
 	height:125px;	
 }
 
+img.workLogo1{
+	height:100px;	
+}
+
+img.workLogo2{
+	height:90px;	
+}
+
 div {
 	border-radius: 10px;
 	position: relative;
@@ -47,7 +55,7 @@ div {
 }
 
 div.headerMain {
-	background-image: url("/pics/header3.png");
+	background-image: url("../pics/header3.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -62,7 +70,7 @@ div.navigation {
 	padding: 1px;
 }
 
-div.school {
+div.school, div.work {
 	background-color: #fff;
 	margin-top: 10px;
 	background-position: center center;
@@ -71,12 +79,21 @@ div.school {
 }
 
 #osu.school {
-	background-image: url("/pics/campus1jpg.jpg");
+	background-image: url("../pics/campus1jpg.jpg");
 }
 
 #ucd.school {
-	background-image: url("/pics/campus2jpg.jpg");
+	background-image: url("../pics/campus2jpg.jpg");
 	background-position: center bottom;
+}
+
+#att.work {
+	background-image: url("../pics/work1jpg.jpg");
+	padding-bottom: 5px;
+}
+
+#dish.work {
+	background-image: url("../pics/work2jpg.jpg");
 }
 
 td.headerName {
@@ -101,10 +118,14 @@ p.blurbs {
 span.title {
 	font-weight: bold;
 	color: #2E9AFE;
+	font-size: 23px;
+	font-family: 'Rockwell';
 }
 
 span.location {
 	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Rockwell';
 }
 
 footer { 
