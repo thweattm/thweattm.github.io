@@ -71,18 +71,11 @@ div.body {
 	padding-top: 20px;
 }
 
-td.right {
-	text-align: right;
-}
-
-td.legal {
-	font-style: italic;
-	text-align: center;
-	padding-top: 20px;
-}
-
 footer { 
 	margin-top: 20px;
+	padding-top: 20px;
 	border-top: 1px solid #d5d5d5; 
 	font-size: .8em; 
+	font-style: italic;
+	text-align: right;
 }
