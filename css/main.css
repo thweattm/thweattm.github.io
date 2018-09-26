@@ -32,15 +32,51 @@ img.icon {
   width:40px;
 }
 
-div.headerMain {
+img.schoolLogo1{
+	height:100px;	
+}
+
+img.schoolLogo2{
+	height:125px;	
+}
+
+div {
 	border-radius: 10px;
 	position: relative;
-	background-image: url("../pics/header.png");
+	background-color: #d8d8d8;
+}
+
+div.headerMain {
+	background-image: url("../pics/header3.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-color: #d8d8d8;
-	overflow: hidden;
+}
+
+div.navigation {
+	border-radius: 0 0 10px 10px;
+	text-align:center;
+	background-color:#3d3d3d;
+	color:#fff;
+	clear: both;
+	padding: 1px;
+}
+
+div.school {
+	background-color: #fff;
+	margin-top: 10px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#osu.school {
+	background-image: url("../pics/campus1jpg.jpg");
+}
+
+#ucd.school {
+	background-image: url("../pics/campus2jpg.jpg");
+	background-position: center bottom;
 }
 
 td.headerName {
@@ -57,18 +93,18 @@ td.headerIcons {
 	text-align: right;
 }
 
-div.navigation {
-	border-radius: 0 0 10px 10px;
-	position: relative;
-	text-align:center;
-	background-color:#3d3d3d;
-	color:#fff;
-	clear: both;
-	padding: 1px;
+p.schoolBlurbs {
+	padding: 10px;
+	margin-left: 20px;
 }
 
-div.body {
-	padding-top: 20px;
+span.degree {
+	font-weight: bold;
+	color: #2E9AFE;
+}
+
+span.schoolName {
+	font-weight: bold;
 }
 
 footer { 
