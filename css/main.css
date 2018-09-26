@@ -3,7 +3,6 @@ body {
   width: 70%; 
 }
 
-/*
 a { 
   text-decoration: none; 
   color: #999; 
@@ -17,7 +16,7 @@ a:hover {
   text-decoration: underline; 
 }
 
-
+/*
 div.header {
   position: relative;
   height: 200px;
