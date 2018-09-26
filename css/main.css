@@ -93,17 +93,17 @@ td.headerIcons {
 	text-align: right;
 }
 
-p.schoolBlurbs {
+p.blurbs {
 	padding: 10px;
 	margin-left: 20px;
 }
 
-span.degree {
+span.title {
 	font-weight: bold;
 	color: #2E9AFE;
 }
 
-span.schoolName {
+span.location {
 	font-weight: bold;
 }
 
