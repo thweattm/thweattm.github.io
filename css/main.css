@@ -60,7 +60,9 @@ nav ul li {
 }
 
 #profilepic {
-	float: right;	
+	height: 250px;
+	border-radius: 10px;
+	margin: 10px;
 }
 
 /*Main div definitions*/
@@ -93,6 +95,10 @@ div.education, div.work {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100%;
+}
+
+div.about {
+	margin-top: 10px;
 }
 
 #osu.education {
