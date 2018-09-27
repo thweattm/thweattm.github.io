@@ -59,6 +59,10 @@ nav ul li {
 	height:90px;	
 }
 
+#profilepic {
+	float: right;	
+}
+
 /*Main div definitions*/
 div {
 	border-radius: 10px;
