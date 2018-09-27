@@ -89,16 +89,12 @@ div.navigation {
 	padding: 1px;
 }
 
-div.education, div.work {
+div.education, div.work, div.about {
 	background-color: #fff;
 	margin-top: 10px;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100%;
-}
-
-div.about {
-	margin-top: 10px;
 }
 
 #osu.education {
@@ -116,6 +112,10 @@ div.about {
 
 #dish.work {
 	background-image: url("/pics/background_work2.jpg");
+}
+
+.about {
+	background-image: url("/pics/background_about.jpg");
 }
 
 /*td definition for the name within the header */
