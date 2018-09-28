@@ -96,7 +96,7 @@ div {
 
 /*Specific div definitions*/
 div.headerMain {
-	background-image: url("../pics/background_header.png");
+	background-image: url("/pics/background_header.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -127,24 +127,24 @@ div.education, div.work, div.about {
 
 
 #osu.education {
-	background-image: url("../pics/background_campus1.jpg");
+	background-image: url("/pics/background_campus1.jpg");
 }
 
 #ucd.education {
-	background-image: url("../pics/background_campus2.jpg");
+	background-image: url("/pics/background_campus2.jpg");
 	background-position: center bottom;
 }
 
 #att.work {
-	background-image: url("../pics/background_work1.jpg");
+	background-image: url("/pics/background_work1.jpg");
 }
 
 #dish.work {
-	background-image: url("../pics/background_work2.jpg");
+	background-image: url("/pics/background_work2.jpg");
 }
 
 .about {
-	background-image: url("../pics/background_about.jpg");
+	background-image: url("/pics/background_about.jpg");
 }
 
 /*td definition for the name within the header */
