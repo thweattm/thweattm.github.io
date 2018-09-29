@@ -99,7 +99,7 @@ div.headerMain {
 	background-image: url("/pics/background_header.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: auto 100%;
 	position: fixed;
 	z-index: 1;
 	top: 0px;
@@ -119,7 +119,7 @@ div.education, div.work, div.about {
 	margin-top: 10px;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 	width:95%;
 	margin: 0 auto;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
