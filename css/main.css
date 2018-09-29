@@ -99,7 +99,7 @@ div.headerMain {
 	background-image: url("/pics/background_header.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: 100%;
 	position: fixed;
 	z-index: 1;
 	top: 0px;
