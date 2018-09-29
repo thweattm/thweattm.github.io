@@ -1,5 +1,3 @@
-/* http://jsfiddle.net/austinbv/2KTFG/ */
-
 body { 
   	font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
 	margin-top: 218px;
@@ -98,7 +96,6 @@ div {
 div.headerMain {
 	background-image: url("/pics/background_header.png");
 	background-position: center bottom;
-	background-repeat: no-repeat;
 	background-size: 100%;
 	position: fixed;
 	z-index: 1;
@@ -118,7 +115,6 @@ div.education, div.work, div.about {
 	background-color: #fff;
 	margin-top: 10px;
 	background-position: center center;
-	background-repeat: no-repeat;
 	background-size: cover;
 	width:95%;
 	margin: 0 auto;
