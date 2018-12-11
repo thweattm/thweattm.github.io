@@ -173,7 +173,7 @@ td.headerIcons {
 }
 
 /*td definition for the projects section*/
-.projects td {
+td.projects {
 	vertical-align: center;
 }
 
