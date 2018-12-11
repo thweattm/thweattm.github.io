@@ -91,6 +91,7 @@ nav ul li {
 	width: 100px;
 	border-radius: 10px;
 	margin: 10px;
+	float: left;
 }
 
 /*Main div definitions*/
