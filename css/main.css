@@ -172,6 +172,11 @@ td.headerIcons {
 	text-align: right;
 }
 
+/*td definition for the projects section*/
+.projects td {
+	vertical-align: center;
+}
+
 /*paragraphs*/
 p {
 	padding: 10px;
