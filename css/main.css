@@ -154,7 +154,7 @@ div.education, div.work, div.about, div.projects {
 
 .projects {
 	background-image: url("/pics/background_projects.jpg");
-	background-position: center top;
+	background-position: left top;
 }
 
 /*td definition for the name within the header */
