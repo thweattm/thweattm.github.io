@@ -143,6 +143,10 @@ div.education, div.work, div.about, div.projects {
 	background-image: url("/pics/background_about.jpg");
 }
 
+.projects {
+	background-image: url("/pics/background_projects.jpg");
+}
+
 /*td definition for the name within the header */
 td.headerName {
 	color: #000;
